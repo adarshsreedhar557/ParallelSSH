@@ -27,7 +27,7 @@ Usage
 
 The script requires three inputs to run: a list of IP addresses, a list of usernames and a list of login credentials (either passwords or key files). The IP addresses, usernames, and login credentials must be in separate text files, with one item per line. The number of IP addresses, usernames, and login credentials must be the same.
 
-php
+python
 
 python parallel_ssh.py <ip_list.txt> <username_list.txt> <login_list.txt>
 
